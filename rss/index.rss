@@ -1,66 +1,160 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>doremifasol</title><description>Thoughts, stories and ideas.</description><link>http://localhost:2368/</link><generator>Ghost 0.11</generator><lastBuildDate>Wed, 28 Sep 2016 09:59:53 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Welcome to Ghost</title><description>&lt;p&gt;You're live! Nice. We've put together a little post to introduce you to the Ghost editor and get you started. You can manage your content by signing in to the admin area at &lt;code&gt;&amp;lt;your blog URL&amp;gt;/ghost/&lt;/code&gt;. When you arrive, you can select this post from a list&lt;/p&gt;</description><link>http://localhost:2368/welcome-to-ghost/</link><guid isPermaLink="false">0d622856-005a-4982-9f81-835117bd224e</guid><category>Getting Started</category><dc:creator>Daniel Giovanni Gunawan</dc:creator><pubDate>Tue, 27 Sep 2016 10:33:34 GMT</pubDate><content:encoded>&lt;p&gt;You're live! Nice. We've put together a little post to introduce you to the Ghost editor and get you started. You can manage your content by signing in to the admin area at &lt;code&gt;&amp;lt;your blog URL&amp;gt;/ghost/&lt;/code&gt;. When you arrive, you can select this post from a list on the left and see a preview of it on the right. Click the little pencil icon at the top of the preview to edit this post and read the next section!&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Daniel Giovanni's Blog</title><description>Stories, creativity, faith and ideas.</description><link>http://localhost:2368/</link><generator>Ghost 0.11</generator><lastBuildDate>Fri, 30 Sep 2016 10:21:42 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Japan</title><description>&lt;p&gt;This is my first time writing a blog, and also my first time going to Japan. It's been almost a year since I came back from Japan. The country that I've been dreaming about, totally worth it. If you never go to Japan, put it in your first list, or&lt;/p&gt;</description><link>http://localhost:2368/2016/09/29/japan/</link><guid isPermaLink="false">f25bb59f-54c6-4210-aedb-74d0173861e8</guid><category>Travel</category><dc:creator>Daniel Giovanni Gunawan</dc:creator><pubDate>Thu, 29 Sep 2016 09:04:23 GMT</pubDate><media:content url="http://localhost:2368/content/images/2016/09/IMG_0411.jpg" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2016/09/IMG_0411.jpg" alt="Japan"&gt;&lt;p&gt;This is my first time writing a blog, and also my first time going to Japan. It's been almost a year since I came back from Japan. The country that I've been dreaming about, totally worth it. If you never go to Japan, put it in your first list, or second, or third (just put it in your list).&lt;/p&gt;
 
-&lt;h2 id="gettingstarted"&gt;Getting Started&lt;/h2&gt;
+&lt;p&gt;Of course, I'm not traveling alone. &lt;br&gt;
+&lt;img src="http://localhost:2368/content/images/2016/09/IMG_0016.JPG" alt="Japan"&gt;&lt;/p&gt;
 
-&lt;p&gt;Ghost uses something called Markdown for writing. Essentially, it's a shorthand way to manage your post formatting as you write!&lt;/p&gt;
-
-&lt;p&gt;Writing in Markdown is really easy. In the left hand panel of Ghost, you simply write as you normally would. Where appropriate, you can use &lt;em&gt;shortcuts&lt;/em&gt; to &lt;strong&gt;style&lt;/strong&gt; your content. For example, a list:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Item number one&lt;/li&gt;
-&lt;li&gt;Item number two
-&lt;ul&gt;&lt;li&gt;A nested item&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;A final item&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;or with numbers!&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Remember to buy some milk  &lt;/li&gt;
-&lt;li&gt;Drink the milk  &lt;/li&gt;
-&lt;li&gt;Tweet that I remembered to buy the milk, and drank it&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id="links"&gt;Links&lt;/h3&gt;
-
-&lt;p&gt;Want to link to a source? No problem. If you paste in a URL, like &lt;a href="http://ghost.org"&gt;http://ghost.org&lt;/a&gt; - it'll automatically be linked up. But if you want to customise your anchor text, you can do that too! Here's a link to &lt;a href="http://ghost.org"&gt;the Ghost website&lt;/a&gt;. Neat.&lt;/p&gt;
-
-&lt;h3 id="whataboutimages"&gt;What about Images?&lt;/h3&gt;
-
-&lt;p&gt;Images work too! Already know the URL of the image you want to include in your article? Simply paste it in like this to make it show up:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="https://ghost.org/images/ghost.png" alt="The Ghost Logo"&gt;&lt;/p&gt;
-
-&lt;p&gt;Not sure which image you want to use yet? That's ok too. Leave yourself a descriptive placeholder and keep writing. Come back later and drag and drop the image in to upload:&lt;/p&gt;
-
-&lt;h3 id="quoting"&gt;Quoting&lt;/h3&gt;
-
-&lt;p&gt;Sometimes a link isn't enough, you want to quote someone on what they've said. Perhaps you've started using a new blogging platform and feel the sudden urge to share their slogan? A quote might be just the way to do it!&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Ghost - Just a blogging platform&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id="workingwithcode"&gt;Working with Code&lt;/h3&gt;
-
-&lt;p&gt;Got a streak of geek? We've got you covered there, too. You can write inline &lt;code&gt;&amp;lt;code&amp;gt;&lt;/code&gt; blocks really easily with back ticks. Want to show off something more comprehensive? 4 spaces of indentation gets you there.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;.awesome-thing {
-    display: block;
-    width: 100%;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id="readyforabreak"&gt;Ready for a Break?&lt;/h3&gt;
-
-&lt;p&gt;Throw 3 or more dashes down on any new line and you've got yourself a fancy new divider. Aw yeah.&lt;/p&gt;
+&lt;p&gt;I'm traveling from 14 October 2015 until 23 October 2015 (9 days in total), and it such a wonderful experience. Here, I just want to share a little guide about everything you'll need when you want to go to country of Sakura. &lt;/p&gt;
 
 &lt;hr&gt;
 
-&lt;h3 id="advancedusage"&gt;Advanced Usage&lt;/h3&gt;
+&lt;h3 id="visa"&gt;Visa&lt;/h3&gt;
 
-&lt;p&gt;There's one fantastic secret about Markdown. If you want, you can write plain old HTML and it'll still work! Very flexible.&lt;/p&gt;
+&lt;p&gt;Yes, I'm an Indonesian, and recently there was this Visa Waiver Program in Indonesia. It is basically a free visa program, you don't need a visa to go to other country. For now, in my country, only Japan has registered to this program. &lt;/p&gt;
 
-&lt;p&gt;&lt;input type="text" placeholder="I'm an input field!"&gt;&lt;/p&gt;
+&lt;p&gt;You still need a passport though, but it has to be this new kind of passport, e-passport. Register an e-passport is easy (&lt;em&gt;don't count my past experience creating one&lt;/em&gt;), and the procedural still the same as the old one. The differences are the price (you can check it &lt;a href="http://www.imigrasi.go.id/index.php/layanan-publik/paspor-biasa#masa-berlaku-dan-biaya"&gt;here&lt;/a&gt;), and the registration place. Not all immigration office in Indonesia support e-passport registration (by the time I wrote this post).&lt;/p&gt;
 
-&lt;p&gt;That should be enough to get you started. Have fun - and let us know what you think :)&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;If you already have e-passport, just go to Japan Embassy and register a Visa Waiver Program. It is as simple as filling a one page form (you can read the instruction &lt;a href="http://www.id.emb-japan.go.jp/news14_30.html"&gt;here&lt;/a&gt;). And yes, you're now eligible to enter &lt;em&gt;Land of the Rising Sun&lt;/em&gt;!&lt;/p&gt;
+
+&lt;h3 id="ticket"&gt;Ticket&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Ticket depends on your budget, I will be discussing the budget at the end of this post, but I will share my experience looking for tickets.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I'm flying from Jakarta, Indonesia, and there are a lot of flight services that will bring you to Japan. There are only 2 local flights service though, AirAsia and Garuda Indonesia. But, there are a lot of International flight services, JetStar, Japan Airlines, ANA, Cathay Pacific, Malaysia Airlines, you name it.&lt;/p&gt;
+
+&lt;p&gt;If you are going for the first time, and traveling to big cities like Osaka, Kyoto, and Tokyo, the best flight plan for me is arrived at Osaka and departed from Tokyo.&lt;/p&gt;
+
+&lt;p&gt;As I said, it depends on your budget. Since this is supposed to be a low budget trip, we choose AirAsia. For the sake of promo ticket, I bought it a year before!&lt;/p&gt;
+
+&lt;h3 id="accommodation"&gt;Accommodation&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href="https://www.airbnb.com/"&gt;Airbnb&lt;/a&gt; is the most popular accommodation rent services for now. You can find any kind of rooms from local people with a affordable prices. Be it for 2 people, or 8-10 people.&lt;/p&gt;
+
+&lt;p&gt;We use Airbnb for all accommodations while in Japan. Booking was easy, the guide, and the host was nice (just one that made us speechless).&lt;/p&gt;
+
+&lt;p&gt;Some tips if you want to use Airbnb as your accommodation service.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Find the best price, but don't forget to look at their &lt;strong&gt;reviews&lt;/strong&gt;. The more reviews, the more you can rest assured (and rest well).  &lt;/li&gt;
+&lt;li&gt;Since Airbnb didn't show the exact &lt;strong&gt;location&lt;/strong&gt; from their  places (only circle area in maps), you need to be careful when choosing your places. If you unlucky, the location shown in preview will be far away from expected. Back to the first one, reviews determine everything.  &lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Close to X station, only 10 minutes walk&lt;/em&gt;, doesn't mean it really close enough. Imagine you are &lt;strong&gt;walking&lt;/strong&gt; with your luggage and you need to find their places, exhausting (&lt;em&gt;trust me&lt;/em&gt;).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Other alternative from Airbnb, of course you can choose a hotel to stay in. It all depends on your budget. Oh, there are another alternatives for low budget accommodation, Hostel. You can search hostel, and you can find a lot of it in Japan. And the prices are also affordable too.&lt;/p&gt;
+
+&lt;h3 id="plan"&gt;Plan&lt;/h3&gt;
+
+&lt;p&gt;Don't ever underestimate planning, even though it is not being executed. Research what kind of places do you want to go, how many city do you want to go, even better if you already know where do you want to eat.&lt;/p&gt;
+
+&lt;h3 id="wifi"&gt;Wi-Fi&lt;/h3&gt;
+
+&lt;p&gt;If you are uncertain with your language skills, and not a B blood-type person (&lt;em&gt;if you know what I mean&lt;/em&gt;), Internet is your friend. &lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://japan-wireless.com"&gt;Japan-wireless&lt;/a&gt; is a pocket wi-fi rental service. They also offer a SIM card with internet, but I suggest a pocket wi-fi if you are traveling with a group. &lt;/p&gt;
+
+&lt;p&gt;You can rent it online, and they will drop it at post office in airport. Show your receipt, pick it, and you got the whole world in your hand. The pocket wi-fi will last for about 4 hours, and they will give you a portable charger, so it will last about 10 hours or more in total. You can also bring your own portable charger if you want, they use &lt;em&gt;micro usb cable charger&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Returning is also easy, just drop it at the post office in airport. They already give you a big envelope for it, complete with recipient detail. Don't forget to fill the rent form with detail of the airport where you will drop the pocket wi-fi.&lt;/p&gt;
+
+&lt;h3 id="jrpass"&gt;JR Pass&lt;/h3&gt;
+
+&lt;p&gt;Japan Railway Pass, basically, it is a train pass that valid for x-days, and you can get a &lt;em&gt;"free ride"&lt;/em&gt; for train that pass through JR-line. &lt;/p&gt;
+
+&lt;p&gt;In every city, there are a few of JR-line, so you still have to buy a regular ticket pass (&lt;em&gt;will be discussed in Transportation section&lt;/em&gt;). JR Pass will be very useful if you travel to other city. &lt;/p&gt;
+
+&lt;p&gt;Buy JR Pass or not? It depends on your plan, whether you traveling between cities or not. Since my route plan was Osaka - Kyoto - Tokyo, it is better for me not to buy JR Pass.&lt;/p&gt;
+
+&lt;h3 id="transportation"&gt;Transportation&lt;/h3&gt;
+
+&lt;p&gt;You can find train, bus, taxi, and even bicycles as a public ride. The most common public ride is train. Most people will use the train to go to work too, so be wise when picking a time to depart.&lt;/p&gt;
+
+&lt;p&gt;You will need a single train ticket for a ride, or you can use train card (&lt;em&gt;Pasmo&lt;/em&gt;, &lt;em&gt;Suica&lt;/em&gt;, or &lt;em&gt;Icoca&lt;/em&gt;). Now you can use all train card in every city, it is not possible before. &lt;/p&gt;
+
+&lt;p&gt;Picking a train line is easy, but you will have a hard time at the first time. If you pick a wrong line, there is nothing to worry about, you cannot go outside Japan with a train 😄. Picking a wrong line will result in more expensive route.&lt;/p&gt;
+
+&lt;p&gt;Tips: Use Google Maps or NaviTime apps, they will show you the best route for you. Pretty accurate, you only need some adaptation the first time you are there.&lt;/p&gt;
+
+&lt;h3 id="budget"&gt;Budget&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Maybe this is the section you are waiting for.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I'll list my budgeting in ¥, and the currency I used at that time was &lt;br&gt;
+&lt;code&gt;1 ¥ = Rp. 123,00&lt;/code&gt;&lt;/p&gt;
+
+&lt;table border="1"&gt;  
+ &lt;tr&gt;
+  &lt;th&gt;No&lt;/th&gt;
+  &lt;th&gt;Things&lt;/th&gt;
+  &lt;th&gt;Total&lt;/th&gt;
+ &lt;/tr&gt;
+&lt;tr&gt;  
+&lt;td&gt;1&lt;/td&gt;  
+&lt;td&gt;Ticket AirAsia (CGK-KIX)&lt;/td&gt;  
+&lt;td&gt;13,162 &amp;yen;&lt;/td&gt;  
+&lt;/tr&gt;  
+&lt;tr&gt;  
+&lt;td&gt;2&lt;/td&gt;  
+&lt;td&gt;Ticket AirAsia (HND-CGK)&lt;/td&gt;  
+&lt;td&gt;17,952 &amp;yen;&lt;/td&gt;  
+&lt;/tr&gt;  
+&lt;tr&gt;  
+&lt;td&gt;3&lt;/td&gt;  
+&lt;td&gt;JR Special Rapid Train (Osaka-Kyoto)&lt;/td&gt;  
+&lt;td&gt;560 &amp;yen;&lt;/td&gt;  
+&lt;/tr&gt;  
+&lt;tr&gt;  
+&lt;td&gt;4&lt;/td&gt;  
+&lt;td&gt;Hikari Train (Kyoto-Tokyo)&lt;/td&gt;  
+&lt;td&gt;13,062 &amp;yen;&lt;/td&gt;  
+&lt;/tr&gt;  
+&lt;tr&gt;  
+&lt;td&gt;5&lt;/td&gt;  
+&lt;td&gt;Universal Studio Japan (1 day pass)&amp;nbsp;&lt;/td&gt;  
+&lt;td&gt;7,200 &amp;yen;&lt;/td&gt;  
+&lt;/tr&gt;  
+&lt;tr&gt;  
+&lt;td&gt;6&lt;/td&gt;  
+&lt;td&gt;Disneyland (1 day pass)&lt;/td&gt;  
+&lt;td&gt;6,900 &amp;yen;&lt;/td&gt;  
+&lt;/tr&gt;  
+&lt;tr&gt;  
+&lt;td&gt;7&lt;/td&gt;  
+&lt;td&gt;Tokyo Airbnb (per day for 8 people)&lt;/td&gt;  
+&lt;td&gt;20,325 &amp;yen;&lt;/td&gt;  
+&lt;/tr&gt;  
+&lt;tr&gt;  
+&lt;td&gt;8&lt;/td&gt;  
+&lt;td&gt;Osaka Airbnb (per day for 8 people)&lt;/td&gt;  
+&lt;td&gt;23,492 &amp;yen;&lt;/td&gt;  
+&lt;/tr&gt;  
+&lt;tr&gt;  
+&lt;td&gt;9&lt;/td&gt;  
+&lt;td&gt;Kyoto Airbnb (per day for 8 people)&lt;/td&gt;  
+&lt;td&gt;23,566 &amp;yen;&lt;/td&gt;  
+&lt;/tr&gt;  
+&lt;tr&gt;  
+&lt;td&gt;10&lt;/td&gt;  
+&lt;td&gt;3 Pocket wi-fi (9 days)&lt;/td&gt;  
+&lt;td&gt;18,202 &amp;yen;&lt;/td&gt;  
+&lt;/tr&gt;  
+&lt;tr&gt;  
+&lt;td&gt;11&lt;/td&gt;  
+&lt;td&gt;Total train transportation in Osaka (3 days)&lt;/td&gt;  
+&lt;td&gt;3,820 &amp;yen;&lt;/td&gt;  
+&lt;/tr&gt;  
+&lt;tr&gt;  
+&lt;td&gt;12&lt;/td&gt;  
+&lt;td&gt;Total train transportation in Kyoto (2 days)&lt;/td&gt;  
+&lt;td&gt;1,930 &amp;yen;&lt;/td&gt;  
+&lt;/tr&gt;  
+&lt;tr&gt;  
+&lt;td&gt;13&lt;/td&gt;  
+&lt;td&gt;Total train transportation in Tokyo (3 days)&lt;/td&gt;  
+&lt;td&gt;5,577 &amp;yen;&lt;/td&gt;  
+&lt;/tr&gt;  
+&lt;/table&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;From what I've heard, that Japan is a beautiful country, it also a country full of nice people, although they cannot speak English. I will definitely go back again. There are still a lot of city that I need to go in Japan. またね!&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I will cover up my journey for each city (Osaka, Kyoto, Tokyo) in another post.&lt;/em&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
