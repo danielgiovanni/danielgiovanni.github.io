@@ -218,7 +218,7 @@ h4, h5, h6 {
 
 h1 {
     font-size: 5rem;
-    letter-spacing: -2px;
+    /*letter-spacing: -2px;*/
     text-indent: -3px;
 }
 
@@ -2253,7 +2253,7 @@ body:not(.post-template) .post-title {
     display:block;
     text-align:center;
 }
-section.hero-noimage #site-nav ul li{
+.author-template #site-nav ul li{
     color:rgba(0, 0, 0, 0.6);
 }
 #site-nav ul li{
@@ -2266,9 +2266,10 @@ section.hero-noimage #site-nav ul li{
 #site-nav ul li:hover{
     color:#fff;
 }
-section.hero-noimage #site-nav ul li:hover{
+.author-template #site-nav ul li:hover{
     color:#000;
 }
+
 @media all and (max-width: 800px) {
     #site-nav h1{
         width:100%;
@@ -2278,8 +2279,27 @@ section.hero-noimage #site-nav ul li:hover{
         width:100%;
         text-align:center;
     }
+    .author-profile .inner {
+        margin-top: 4em;
+    }
 }
 
+/* Author */
+
+.author-profile.inner {
+    margin-top: 6em;
+}
+
+.author-social > a > img {
+    width: 40px;
+    margin: 8px;
+}
+
+@media all and (max-width: 800px) {
+    .author-profile.inner {
+        margin-top: 3em;
+    }
+}
 
 /* ==========================================================================
    End of file. Animations should be the last thing here. Do not add stuff
